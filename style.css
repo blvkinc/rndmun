@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Hel';
+  src: url('/fonts/Helvetica-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pix';
+  src: url('/fonts/Paskowy.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'pixel';
+  src: url('/fonts/PIXEAB__.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  font-size: 11 !important;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    padding: 1px;
+
+ 
+  }
+  
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  filter: blur(5px);
+  transition: filter 0.5s ease;
+}
+
+.container:hover {
+  filter: blur(0);
+}
+.left {
+  font-family: monospace;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  letter-spacing: 2px;
+  margin: 1px;
+}
+.right {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  margin: 1rem;
+}
+
+.resizeL {
+  font-size: 7px; 
+  resize: both; 
+  overflow: hidden; 
+  max-width: 100%; 
+  max-height: 100%; 
+  margin: 0px;
+}
+
+.resizeR {
+  font-family: 'pixel'; 
+  resize: both; 
+  overflow: hidden; 
+  max-width: 100%; 
+  max-height: 100%; 
+  font-size: 18px; 
+  letter-spacing: 1.5px;
+  margin: 0px;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.shape.shape1 {
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.shape.shape2 {
+  width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0% ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .shape.shape3 {
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape4{
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 100% 0% 0% 100% / 100% 0% 100% 0% ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape5 {
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 0% 100% 100% 0% / 100% 0% 100% 0% ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape6 {
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape7 {
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 100% 0% 100% 0% / 0% 0% 100% 100% ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape8 {
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  .shape.shape9 {
+    width: 75px;
+  height: 75px;
+    background-color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .shape.back {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%  ;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .shape:hover,.shape1:hover,.shape2:hover,.shape3:hover,.shape4:hover,.shape5:hover,.shape6:hover,.shape7:hover,.shape8:hover {
+    background-color: #3cf3eb;
+    transform: scale(1.1);
+  }
+  
+
+  .title {
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+h1{
+    font-family: 'pix';
+    font-weight: 200;
+    color: #fff;
+    letter-spacing: 2px;
+    word-spacing: 2.2px;
+    text-transform: uppercase;
+    font-size: 1.67rem;
+  }
+  
+  #p1 {
+    font-size: 11px;
+
+  }
+  

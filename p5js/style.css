@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'pix';
+  src: url('/fonts/Paskowy.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+canvas {
+  display: block;
+}
+
+.shape.back {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%  ;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.shape.back:hover {
+  background-color: #3cf3eb;
+}
+.shape:hover,.shape1:hover,.shape2:hover,.shape3:hover,.shape4:hover,.shape5:hover,.shape6:hover,.shape7:hover,.shape8:hover {
+  background-color: #3cf3eb;
+  transform: scale(1.1);
+}
+
+h1{
+  font-family: 'pix';
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 2.2px;
+  text-transform: uppercase;
+}
