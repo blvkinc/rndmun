@@ -12,25 +12,25 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#back').click(function() {
-    window.location.href = '/index.html';
+    window.location.href = '/rndmun/index.html';
   });
 });
 
 $(document).ready(function() {
   $('#shape1').click(function() {
-    window.location.href = 'pages/about_me.html';
+    window.location.href = '/rndmun/pages/about_me.html';
   });
 });
 
 $(document).ready(function() {
   $('#shape2').click(function() {
-    window.location.href = 'pages/my_work.html';
+    window.location.href = '/rndmun/pages/my_work.html';
   });
 });
 
 $(document).ready(function() {
   $('#shape3').click(function() {
-    window.location.href = 'pages/my_services.html';
+    window.location.href = '/rndmun/pages/my_services.html';
   });
 });
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#shape7').click(function() {
-    window.location.href = 'p5js/index.html';
+    window.location.href = '/rndmun/p5js/index.html';
   });
 });
 
