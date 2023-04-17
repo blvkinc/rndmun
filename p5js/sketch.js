@@ -12,7 +12,7 @@ let camZ = 500;
 let isPlaying = true;
 
 function preload() {
-  song = loadSound('./1.wav');
+  song = loadSound('/rndmun/p5js/1.wav');
 }
 
 function setup() {
