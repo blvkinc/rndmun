@@ -4,20 +4,20 @@
 
 @font-face {
   font-family: 'Hel';
-  src: url('/fonts/Helvetica-Bold.ttf');
+  src: url('/rndmun/fonts/Helvetica-Bold.ttf');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'pix';
-  src: url('/fonts/Paskowy.ttf');
+  src: url('/rndmun/fonts/Paskowy.ttf');
   font-weight: normal;
   font-style: normal;
 
 }
 @font-face {
   font-family: 'pixel';
-  src: url('/fonts/PIXEAB__.TTF');
+  src: url('/rndmun/fonts/PIXEAB__.TTF');
   font-weight: normal;
   font-style: normal;
 }
