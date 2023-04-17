@@ -1,20 +1,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #000;
+  font-family: 'Courier' !important; 
+  color: #FFF;
+  font-size: 10pt;
+  line-height: 10pt;
 }
-
-@font-face {
-  font-family: 'pix';
-  src: url('/rndmun/fonts/Paskowy.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
 canvas {
   display: block;
 }
-
 .shape.back {
   width: 15px;
   height: 15px;
@@ -31,11 +26,3 @@ canvas {
   transform: scale(1.1);
 }
 
-h1{
-  font-family: 'pix';
-  font-weight: 200;
-  color: #fff;
-  letter-spacing: 2px;
-  word-spacing: 2.2px;
-  text-transform: uppercase;
-}
