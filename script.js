@@ -58,7 +58,11 @@ $(document).ready(function() {
   });
 });
 
-
+$(document).ready(function() {
+  $('#shape9').click(function() {
+    window.location.href = '/rndmun/black/index.html';
+  });
+});
 
 
 
