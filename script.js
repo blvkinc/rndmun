@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('#shape8').click(function() {
-    window.location.href = '/rndmun/pages/momento_mori.html';
+    window.location.href = '/rndmun/p5js/index.html';
   });
 });
 
