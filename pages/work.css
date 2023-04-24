@@ -135,6 +135,16 @@
       cursor: pointer;
       transition: transform 0.2s ease-in-out;
     }
+
+    .shape.shape10 {
+      width: 200px;
+      height: 300px;
+      background-image: url('/rndmun/images/book.png');
+      background-size: cover;
+      border-radius: 0;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out;
+    }
   
     .shape.back {
       width: 15px;
@@ -153,6 +163,10 @@
       transform: scale(6);
     }
 
+    .shape10:hover {
+      background-color: rgba(60, 243, 234, 0);
+      transform: scale(3);
+    }
   
     .title {
     font-weight: bold;

@@ -58,6 +58,14 @@ $(document).ready(function() {
   });
 });
 
+
+$(document).ready(function() {
+  $('#shape8').click(function() {
+    window.location.href = '/rndmun/pages/momento_mori.html';
+  });
+});
+
+
 $(document).ready(function() {
   $('#shape9').click(function() {
     window.location.href = '/rndmun/black/index.html';
